@@ -24,6 +24,7 @@
 		1575E4E6245D88A300421C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1575E4E5245D88A300421C5B /* Assets.xcassets */; };
 		1575E4E9245D88A300421C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1575E4E7245D88A300421C5B /* Main.storyboard */; };
 		1575E4F0245DB90500421C5B /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575E4AB245D6C6400421C5B /* Core.framework */; };
+		15DD7D652461FB4900F3D734 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD7D642461FB4900F3D734 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		1575E4E8245D88A300421C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1575E4EA245D88A300421C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1575E4EB245D88A300421C5B /* Puhser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Puhser.entitlements; sourceTree = "<group>"; };
+		15DD7D642461FB4900F3D734 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				1575E4EA245D88A300421C5B /* Info.plist */,
 				1575E4EB245D88A300421C5B /* Puhser.entitlements */,
 				154A3469245E9D5F00021B49 /* ViewController.swift */,
+				15DD7D642461FB4900F3D734 /* CustomView.swift */,
 			);
 			path = Puhser;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				154A346A245E9D5F00021B49 /* ViewController.swift in Sources */,
+				15DD7D652461FB4900F3D734 /* CustomView.swift in Sources */,
 				1575E4E2245D88A200421C5B /* AppDelegate.swift in Sources */,
 				154A346C245E9FA400021B49 /* View.swift in Sources */,
 			);

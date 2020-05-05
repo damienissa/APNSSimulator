@@ -13,10 +13,11 @@ public struct UDProperty<Value> {
     
     let defaults: UserDefaults = UserDefaults(suiteName: "com.Core.Pusher")!
     let key: String
+    var defaultValue: Value? = nil
     
     public var wrappedValue: Value? {
-        get { getValue() }
-        set { set(newValue)}
+        get { getValue()  ?? defaultValue }
+        set { set(newValue) }
     }
     
     private func getValue() -> Value? {

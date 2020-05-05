@@ -12,7 +12,13 @@ import Core
 protocol ViewControllerProtocol {
     
     func getDeviceList() -> [Simulator]
-    func makePush(_ push: Push, forDevice deviece: Simulator)
+    func makePush(_ push: Push, forDevice device: Simulator)
+}
+
+protocol CustomViewControllerProtocol {
+    
+    func getDeviceList() -> [Simulator]
+    func makePush(_ push: String, forDevice device: Simulator, appID: String)
 }
 
 class ViewController: NSObject {
@@ -41,8 +47,16 @@ extension ViewController: ViewControllerProtocol {
         devices
     }
     
-    func makePush(_ push: Push, forDevice deviece: Simulator) {
+    func makePush(_ push: Push, forDevice device: Simulator) {
         
-        pushService.makePush(push, forDevice: deviece)
+        pushService.makePush(push, forDevice: device)
+    }
+}
+
+extension ViewController: CustomViewControllerProtocol {
+    
+    func makePush(_ push: String, forDevice device: Simulator, appID: String) {
+        
+        pushService.makePush(push, forDevice: device, appID: appID)
     }
 }
