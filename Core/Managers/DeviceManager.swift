@@ -8,16 +8,12 @@
 
 import Foundation
 
-public protocol DeviceProvider {
-    func getDeviceList() -> [Simulator]
-}
-
 public class DeviceManager: DeviceProvider {
     
-    let parcer: Parcering
+    let parcer: Parsering
     let shell: Shell
     
-    public init(parcer: Parcering, shell: Shell) {
+    public init(parcer: Parsering, shell: Shell) {
         
         self.parcer = parcer
         self.shell = shell

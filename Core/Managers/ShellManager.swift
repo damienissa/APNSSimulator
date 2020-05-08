@@ -6,13 +6,9 @@
 //  Copyright © 2020 Virych. All rights reserved.
 //
 
+import Foundation
 
-public protocol Shell {
-    @discardableResult
-    func execute(_ command: String) -> String
-}
-
-public struct RealShell: Shell {
+public struct ShellManager: Shell {
     
     public init() { }
     

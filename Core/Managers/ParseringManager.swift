@@ -1,12 +1,12 @@
 //
-//  Parcer.swift
+//  ParseringManager.swift
 //  Core
 //
 //  Created by Dima Virych on 02.05.2020.
 //  Copyright © 2020 Virych. All rights reserved.
 //
 
-public struct Parcer: Parcering {
+public struct ParseringManager: Parsering {
     
     public init() {}
     

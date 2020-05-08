@@ -14,10 +14,10 @@
 		1575E4B4245D6C6400421C5B /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575E4AB245D6C6400421C5B /* Core.framework */; };
 		1575E4BB245D6C6400421C5B /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4BA245D6C6400421C5B /* CoreTests.swift */; };
 		1575E4BD245D6C6400421C5B /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 1575E4AD245D6C6400421C5B /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1575E4C9245D6C6C00421C5B /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4C8245D6C6C00421C5B /* Shell.swift */; };
+		1575E4C9245D6C6C00421C5B /* ShellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4C8245D6C6C00421C5B /* ShellManager.swift */; };
 		1575E4CB245D730400421C5B /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4CA245D730400421C5B /* Simulator.swift */; };
-		1575E4CD245D731500421C5B /* Parcering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4CC245D731500421C5B /* Parcering.swift */; };
-		1575E4CF245D732300421C5B /* Parcer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4CE245D732300421C5B /* Parcer.swift */; };
+		1575E4CD245D731500421C5B /* Parsering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4CC245D731500421C5B /* Parsering.swift */; };
+		1575E4CF245D732300421C5B /* ParseringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4CE245D732300421C5B /* ParseringManager.swift */; };
 		1575E4D8245D749A00421C5B /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4D7245D749A00421C5B /* DeviceManager.swift */; };
 		1575E4DA245D7D7300421C5B /* PushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4D9245D7D7300421C5B /* PushService.swift */; };
 		1575E4E2245D88A200421C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575E4E1245D88A200421C5B /* AppDelegate.swift */; };
@@ -25,6 +25,10 @@
 		1575E4E9245D88A300421C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1575E4E7245D88A300421C5B /* Main.storyboard */; };
 		1575E4F0245DB90500421C5B /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575E4AB245D6C6400421C5B /* Core.framework */; };
 		15DD7D652461FB4900F3D734 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DD7D642461FB4900F3D734 /* CustomView.swift */; };
+		15FC54322465B53300948DEC /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC54312465B53300948DEC /* Push.swift */; };
+		15FC54352465B54C00948DEC /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC54342465B54C00948DEC /* FileManager.swift */; };
+		15FC54382465B61300948DEC /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC54372465B61300948DEC /* Shell.swift */; };
+		15FC543A2465B65700948DEC /* DeviceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC54392465B65700948DEC /* DeviceProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +51,10 @@
 		1575E4B3245D6C6400421C5B /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1575E4BA245D6C6400421C5B /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		1575E4BC245D6C6400421C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1575E4C8245D6C6C00421C5B /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		1575E4C8245D6C6C00421C5B /* ShellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellManager.swift; sourceTree = "<group>"; };
 		1575E4CA245D730400421C5B /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
-		1575E4CC245D731500421C5B /* Parcering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parcering.swift; sourceTree = "<group>"; };
-		1575E4CE245D732300421C5B /* Parcer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parcer.swift; sourceTree = "<group>"; };
+		1575E4CC245D731500421C5B /* Parsering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsering.swift; sourceTree = "<group>"; };
+		1575E4CE245D732300421C5B /* ParseringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseringManager.swift; sourceTree = "<group>"; };
 		1575E4D7245D749A00421C5B /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
 		1575E4D9245D7D7300421C5B /* PushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushService.swift; sourceTree = "<group>"; };
 		1575E4DF245D88A200421C5B /* Puhser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puhser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +63,11 @@
 		1575E4E5245D88A300421C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1575E4E8245D88A300421C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1575E4EA245D88A300421C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1575E4EB245D88A300421C5B /* Puhser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Puhser.entitlements; sourceTree = "<group>"; };
 		15DD7D642461FB4900F3D734 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		15FC54312465B53300948DEC /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		15FC54342465B54C00948DEC /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		15FC54372465B61300948DEC /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		15FC54392465B65700948DEC /* DeviceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,16 +121,11 @@
 		1575E4AC245D6C6400421C5B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				15FC54362465B5E600948DEC /* Interfaces */,
+				15FC54332465B54300948DEC /* Managers */,
+				15FC54302465B51200948DEC /* Models */,
 				1575E4AD245D6C6400421C5B /* Core.h */,
-				154A346D245EA00C00021B49 /* UDProperty.swift */,
 				1575E4AE245D6C6400421C5B /* Info.plist */,
-				1575E4C8245D6C6C00421C5B /* Shell.swift */,
-				1575E4CA245D730400421C5B /* Simulator.swift */,
-				1575E4CC245D731500421C5B /* Parcering.swift */,
-				1575E4CE245D732300421C5B /* Parcer.swift */,
-				1575E4D7245D749A00421C5B /* DeviceManager.swift */,
-				1575E4D9245D7D7300421C5B /* PushService.swift */,
-				154A346F245EA07D00021B49 /* UserSettings.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -140,14 +142,12 @@
 		1575E4E0245D88A200421C5B /* Puhser */ = {
 			isa = PBXGroup;
 			children = (
+				15FC543C2465B6BC00948DEC /* Controllers */,
+				15FC543B2465B6AF00948DEC /* Views */,
 				1575E4E1245D88A200421C5B /* AppDelegate.swift */,
-				1575E4E3245D88A200421C5B /* View.swift */,
 				1575E4E5245D88A300421C5B /* Assets.xcassets */,
 				1575E4E7245D88A300421C5B /* Main.storyboard */,
 				1575E4EA245D88A300421C5B /* Info.plist */,
-				1575E4EB245D88A300421C5B /* Puhser.entitlements */,
-				154A3469245E9D5F00021B49 /* ViewController.swift */,
-				15DD7D642461FB4900F3D734 /* CustomView.swift */,
 			);
 			path = Puhser;
 			sourceTree = "<group>";
@@ -157,6 +157,56 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15FC54302465B51200948DEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				154A346D245EA00C00021B49 /* UDProperty.swift */,
+				1575E4CA245D730400421C5B /* Simulator.swift */,
+				15FC54312465B53300948DEC /* Push.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15FC54332465B54300948DEC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				154A346F245EA07D00021B49 /* UserSettings.swift */,
+				1575E4D9245D7D7300421C5B /* PushService.swift */,
+				1575E4C8245D6C6C00421C5B /* ShellManager.swift */,
+				1575E4CE245D732300421C5B /* ParseringManager.swift */,
+				1575E4D7245D749A00421C5B /* DeviceManager.swift */,
+				15FC54342465B54C00948DEC /* FileManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		15FC54362465B5E600948DEC /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				1575E4CC245D731500421C5B /* Parsering.swift */,
+				15FC54372465B61300948DEC /* Shell.swift */,
+				15FC54392465B65700948DEC /* DeviceProvider.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		15FC543B2465B6AF00948DEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15DD7D642461FB4900F3D734 /* CustomView.swift */,
+				1575E4E3245D88A200421C5B /* View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15FC543C2465B6BC00948DEC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				154A3469245E9D5F00021B49 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,12 +351,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				154A346E245EA00C00021B49 /* UDProperty.swift in Sources */,
-				1575E4CF245D732300421C5B /* Parcer.swift in Sources */,
+				1575E4CF245D732300421C5B /* ParseringManager.swift in Sources */,
 				1575E4CB245D730400421C5B /* Simulator.swift in Sources */,
-				1575E4CD245D731500421C5B /* Parcering.swift in Sources */,
+				1575E4CD245D731500421C5B /* Parsering.swift in Sources */,
+				15FC54322465B53300948DEC /* Push.swift in Sources */,
+				15FC54352465B54C00948DEC /* FileManager.swift in Sources */,
 				1575E4D8245D749A00421C5B /* DeviceManager.swift in Sources */,
+				15FC54382465B61300948DEC /* Shell.swift in Sources */,
 				154A3470245EA07D00021B49 /* UserSettings.swift in Sources */,
-				1575E4C9245D6C6C00421C5B /* Shell.swift in Sources */,
+				1575E4C9245D6C6C00421C5B /* ShellManager.swift in Sources */,
+				15FC543A2465B65700948DEC /* DeviceProvider.swift in Sources */,
 				1575E4DA245D7D7300421C5B /* PushService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
