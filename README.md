@@ -3,7 +3,7 @@
 
 ## Updates: 
 ### Added custom mode
-In the custom mode you can create your own APS and send it to device 
+In the custom mode you can create your own APS and send it to the Simulator 
 <div class="row">
         <img src="custom.png" width="320">
         <img src="basic.png" width="320">
