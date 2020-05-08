@@ -750,7 +750,7 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9GO-IS-K01">
-                                        <rect key="frame" x="0.0" y="162" width="240" height="124"/>
+                                        <rect key="frame" x="0.0" y="162" width="390" height="124"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mTl-um-UJI">
                                                 <rect key="frame" x="-2" y="108" width="35" height="16"/>
@@ -890,7 +890,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="9GO-IS-K01" secondAttribute="trailing" constant="180" id="RhU-f8-iIQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="9GO-IS-K01" secondAttribute="trailing" constant="30" id="RhU-f8-iIQ"/>
                                 </constraints>
                                 <visibilityPriorities>
                                     <integer value="1000"/>
@@ -934,14 +934,14 @@
         <!--Tab View Controller-->
         <scene sceneID="p0h-mc-XFI">
             <objects>
-                <tabViewController selectedTabViewItemIndex="0" id="NB7-4X-kqV" sceneMemberID="viewController">
+                <tabViewController selectedTabViewItemIndex="1" id="NB7-4X-kqV" sceneMemberID="viewController">
                     <tabViewItems>
                         <tabViewItem id="PWq-tm-8aw"/>
                         <tabViewItem identifier="" id="s7C-t3-wRK"/>
                     </tabViewItems>
                     <tabView key="tabView" type="noTabsNoBorder" id="tMX-L0-KqO">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <rect key="frame" x="0.0" y="90" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <font key="font" metaFont="system"/>
                         <connections>
                             <outlet property="delegate" destination="NB7-4X-kqV" id="v8q-9k-Q84"/>
@@ -991,7 +991,7 @@
                                         </popUpButtonCell>
                                     </popUpButton>
                                     <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SOp-O8-WDS">
-                                        <rect key="frame" x="0.0" y="100" width="240" height="124"/>
+                                        <rect key="frame" x="0.0" y="100" width="390" height="124"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iYU-mJ-47P">
                                                 <rect key="frame" x="-2" y="108" width="30" height="16"/>
@@ -1095,7 +1095,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="SOp-O8-WDS" secondAttribute="trailing" constant="180" id="SAc-T6-NeI"/>
+                                    <constraint firstAttribute="trailing" secondItem="SOp-O8-WDS" secondAttribute="trailing" constant="30" id="SAc-T6-NeI"/>
                                 </constraints>
                                 <visibilityPriorities>
                                     <integer value="1000"/>

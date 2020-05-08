@@ -11,11 +11,11 @@ import Core
 
 class CoreTests: XCTestCase {
     
-    let parser: Parcering = Parcer()
+    let parser: Parsering = ParseringManager()
 
     func testExample() throws {
         
-        let shell = Shell.execute("instruments -s devices")
+        let shell = ShellManager().execute("instruments -s devices")
         let aaa = parser.parceDeviceList(from: shell)
         
         XCTAssertNotEqual(aaa.count, 0)

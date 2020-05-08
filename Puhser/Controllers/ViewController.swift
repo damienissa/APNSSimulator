@@ -25,8 +25,8 @@ class ViewController: NSObject {
     
     // MARK: - Properties
     
-    private let pushService: PushService = PushService(RealShell())
-    private let provider: DeviceProvider = DeviceManager(parcer: Parcer(), shell: RealShell())
+    private let pushService: PushService = PushService(ShellManager())
+    private let provider: DeviceProvider = DeviceManager(parcer: ParseringManager(), shell: ShellManager())
     
     private var devices: [Simulator] = []
     
