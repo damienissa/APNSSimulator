@@ -4,4 +4,4 @@
 ## Updates: 
 ### Added custom mode
 In the custom mode you can create your own APS and send it to device 
-![image](custom.png) ![image](basic.png)
+![image](custom.png =250x) ![image](basic.png)
